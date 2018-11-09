@@ -1,0 +1,10 @@
+name: app
+publish_to: none
+dependencies:
+  angel_framework: ^2.0.0-alpha
+  angel_production: ^1.0.0-alpha
+  angel_proxy: ^2.0.0
+  angel_static: ^2.0.0
+dev_dependencies:
+  build_runner: ^1.0.0
+  build_web_compilers: ^0.4.0
