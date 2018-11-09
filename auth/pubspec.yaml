@@ -1,0 +1,7 @@
+name: auth
+publish_to: none
+dependencies:
+  angel_auth: ^2.0.0-alpha
+  angel_framework: ^2.0.0-alpha
+  angel_static: ^2.0.0-alpha
+  dbcrypt: ^1.0.0

@@ -1,0 +1,10 @@
+<div class="ui menu">
+    <div class="header item">Angel Chat</div>
+</div>
+<div *ngIf="errored" class="ui container">
+    Loading!
+</div>
+<div *ngIf="!errored && loading" class="ui container">
+    Loading!
+</div>
+<x-chat *ngIf="!errored && !loading" class="ui container"></x-chat>
