@@ -1,7 +1,0 @@
-analyzer:
-  exclude:
-    - .dart_tool/build/generated/**
-  strong-mode:
-    implicit-casts: false
-  plugins:
-    - angular

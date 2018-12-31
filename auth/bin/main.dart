@@ -1,5 +1,6 @@
 import 'package:angel_auth/angel_auth.dart';
 import 'package:angel_framework/angel_framework.dart';
+import 'package:angel_framework/http.dart';
 import 'package:angel_static/angel_static.dart';
 import 'package:auth/auth.dart';
 import 'package:file/local.dart';
