@@ -1,0 +1,19 @@
+<extend src="layout.jael">
+   <block name="content">
+      <h1>Videos ({{ videos.length }})</h1>
+      <i if=videos.isEmpty >There are no videos.</i>
+      <div class="ui three stackable cards" if=videos.isNotEmpty>
+        <a for-each=videos as="video" class="ui card" href="/watch/" + video.id>
+            <div class="image">
+                <video src="/uploads/" + video.filePath style="max-width: 100%"></video>
+            </div>
+            <div class="content">
+                <div class="header">{{ video.title }}</div>
+                <div class="description">
+                    <p>{{ video.description }}</p>
+                </div>
+            </div>
+        </a>
+      </div>
+   </block>
+</extend>

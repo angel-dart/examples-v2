@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <title>{{ title ?? 'Yewtube' }}</title>
+</head>
+<body>
+    <div class="ui menu">
+        <a href="/" class="header item">
+            <i class="youtube icon"></i>
+            YewTube
+        </a>
+        <div class="right menu">
+            <div class="ui item">
+                <a href="/upload" class="ui button">
+                    <i class="upload icon"></i>
+                    Upload
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ui container">
+        <block name="content"></block>
+    </div>
+    <block name="scripts"></block>
+</body>
+</html>

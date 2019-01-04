@@ -1,0 +1,13 @@
+name: yewtube
+dependencies:
+  angel_configuration: ^2.0.0
+  angel_file_service: ^2.0.0
+  angel_framework: ^2.0.0-alpha
+  angel_jael: ^2.0.0
+  angel_serialize: ^2.0.0
+  angel_static: ^2.0.0
+  angel_validate: ^2.0.0
+  uuid: ^2.0.0-rc.1
+dev_dependencies:
+  angel_serialize_generator: ^2.0.0
+  build_runner: ^1.0.0

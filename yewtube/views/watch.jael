@@ -1,0 +1,10 @@
+<extend src="layout.jael">
+    <block name="content">
+        <h1>{{ video.title }}</h1>
+        <video src=publicPath autoplay=true controls=true style="max-height: 30em"></video>
+        <p>
+            <h3>{{ video.title }}</h3>
+            <i>{{ video.description }}</i>
+        </p>
+    </block>
+</extend>

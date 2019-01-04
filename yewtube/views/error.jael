@@ -1,0 +1,8 @@
+<extend src="layout.jael">
+   <block name="content">
+      <h1>Whoops! An error occurred.</h1>
+      <div class="ui error message">
+      {{ error }}
+      </div>
+   </block>
+</extend>

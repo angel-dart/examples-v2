@@ -1,0 +1,33 @@
+<extend src="layout.jael">
+    <block name="content">
+        <h1>Upload</h1>
+        <form action="/upload" enctype="multipart/form-data" class="ui form" id="upload-form" method="post">
+            <div class="required field">
+                <label for="file">File:</label>
+                <div class="ui left icon input">
+                    <i class="upload icon"></i>
+                    <input type="file" accept="video/*" type="text" id="file" name="file">
+                </div>
+            </div>
+            <div class="required field">
+                <label for="title">Title:</label>
+                <div class="ui left icon input">
+                    <i class="font icon"></i>
+                    <input placeholder="Video Title..." type="text" id="title" name="title">
+                </div>
+            </div>
+            <div class="required field">
+                <label for="description">Description:</label>
+                <textarea placeholder="Enter a description..." name="description" id="description"></textarea>
+            </div>
+            <input class="ui button" type="submit" value="Submit">
+        </form>
+    </block>
+    <block name="scripts">
+       <script>
+        window.onload = function() {
+            document.getElementById('description').innerHTML = '';
+        };
+       </script>
+    </block>
+</extend>

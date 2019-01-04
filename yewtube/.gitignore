@@ -1,0 +1,6 @@
+db.json
+web/uploads/*.mp4
+web/uploads/*.avi
+web/uploads/*.mov
+web/uploads/*.ogg
+web/uploads/*.webm
