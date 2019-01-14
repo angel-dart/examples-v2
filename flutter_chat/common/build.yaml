@@ -1,0 +1,9 @@
+targets:
+  _standalone:
+    sources:
+      - lib/src/models/user.dart
+  $default:
+    dependencies:
+      - :_standalone
+    sources:
+      - lib/src/models/message.dart
