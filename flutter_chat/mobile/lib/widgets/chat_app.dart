@@ -8,5 +8,4 @@ class ChatApp extends StatelessWidget {
       home: ChatHome(),
     );
   }
-
 }
